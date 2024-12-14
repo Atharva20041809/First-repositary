@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    background-color: #ECF6FE;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #440A8F;
+}
+.right{
+    font-family: "Syne", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: syne;
+    line-height: 32px;
+    color: #381664;
+}
+.left{
+    font-family: "Syne", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 42px;
+    font-style: syne;
+    font-weight: 800;
+    line-height: 42px;
+    color: #381664;
+}
+.main-content{
+    padding-top: 144px;
+    padding-bottom: 96px;
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.heading{
+    font-family: "Syne", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+    color: #381664;
+    text-align: center;
+    
+}
+.photo img{
+    width: 100%;
+    border: 1px solid #440A8F;
+    border-radius: 22px;
+}
+.projects img{
+    /* i will put something here later */
+}
+.projects div{
+    display: flex;
+    flex-direction: column;
+    width: 416px;
+    height: 333px;
+    margin-top: 48px;
+}
+.projects span:nth-child(1){
+    font-family: "Syne", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+    color: #381664;
+    font-weight: 400;
+}
+.projects span{
+    font-family: "Syne", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #381664;
+}
+.projects{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.explain{
+    padding: 96px 0;
+}
+.explain div{
+    font-family: "Syne", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 52px;
+    width: 672px;
+    height: 312px;
+    color: #381664;
+}
+.word{
+    font-family: "Syne", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+}
+.number{
+    width: 56px;
+    height: 64px;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #440A8F;
+    border-radius: 8px;
+}
+p{
+    text-align: center;
+    color: #381664;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.button{
+    text-align: center;
+    padding-top: 16px;
+    background-color: #440A8F;
+    border-radius: 8px;
+    width: 400px;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: "Space Mono", monospace;
+    font-style: normal;
+}
+.skip{
+    color: #440A8F;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: "Space Mono", monospace;
+    font-style: normal;
+    text-align: center;
+}
+.contact{
+    padding-top: 200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.box{
+    display: flex;
+    gap: 12px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 96px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.endl{
+    font-family: "Syne", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #440A8F;
+}
+.endr{
+    width: 159px;
+    padding-bottom: 12px;
+    font-family: "Space Mono", monospace;
+    font-style: normal;
+    border: 1px solid #440A8F;
+    border-radius: 8px;
+    padding-top: 12px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #440A8F;
+    line-height: 24px;
+}
